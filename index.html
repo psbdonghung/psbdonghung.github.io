@@ -285,39 +285,11 @@
         </div>
       </div>
 
-      <form class="form" id="form-dang-ky" novalidate>
-        <h3 class="h3">Thông tin đăng ký</h3>
-        <div class="fld">
-          <label for="ten-phu-huynh">Họ tên phụ huynh</label>
-          <input id="ten-phu-huynh" name="ten-phu-huynh" type="text" autocomplete="name" required aria-describedby="err-ten-phu-huynh">
-          <p class="err" id="err-ten-phu-huynh"></p>
-        </div>
-        <div class="fld">
-          <label for="dia-chi">Địa chỉ</label>
-          <input id="dia-chi" name="dia-chi" type="text" autocomplete="street-address" required aria-describedby="err-dia-chi">
-          <p class="err" id="err-dia-chi"></p>
-        </div>
-        <div class="fld">
-          <label for="sdt">Số điện thoại</label>
-          <input id="sdt" name="sdt" type="tel" inputmode="tel" autocomplete="tel" maxlength="14" placeholder="Ví dụ: 0912345678" required aria-describedby="err-sdt">
-          <p class="err" id="err-sdt"></p>
-        </div>
-        <div class="fld">
-          <label for="ten-hoc-vien">Họ tên học viên</label>
-          <input id="ten-hoc-vien" name="ten-hoc-vien" type="text" autocomplete="off" required aria-describedby="err-ten-hoc-vien">
-          <p class="err" id="err-ten-hoc-vien"></p>
-        </div>
-        <div class="fld">
-          <label for="tuoi">Độ tuổi học viên (6–18)</label>
-          <input id="tuoi" name="tuoi" type="text" inputmode="numeric" autocomplete="off" maxlength="2" required aria-describedby="err-tuoi">
-          <p class="err" id="err-tuoi"></p>
-        </div>
-        <button class="btn btn-y btn-big" type="submit">Gửi đăng ký</button>
-        <div class="form-ok" id="form-ok" role="status" tabindex="-1" hidden>
-          Đây là bản xem thử, thông tin chưa được gửi. Bạn có thể nhắn Zalo <a href="https://zalo.me/0966489662" target="_blank" rel="noopener noreferrer">0966489662</a> để đăng ký ngay.
-        </div>
-        <p class="form__alt">Hoặc gọi/nhắn Zalo <a href="tel:0966489662">0966489662</a></p>
-      </form>
+      <div class="form zalo-card">
+        <h3 class="h3">Đăng ký qua Zalo</h3>
+        <p>Nhắn Zalo <strong>0966489662</strong> để đăng ký học thử miễn phí 1 buổi. Bạn chỉ cần gửi họ tên phụ huynh, họ tên và độ tuổi của học viên.</p>
+        <a class="btn btn-y btn-big" href="https://zalo.me/0966489662" target="_blank" rel="noopener noreferrer">Nhắn Zalo đăng ký</a>
+      </div>
     </div>
   </div>
 </section>
