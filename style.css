@@ -412,6 +412,12 @@ button.frame:hover { transform: rotate(0deg) scale(1.03); position: relative; z-
 .form .h3 { margin-bottom: 14px; }
 .form .btn { width: 100%; --sh: var(--yellow-deep); }
 .zalo-card p { margin: 0 0 18px; font-size: 1.05rem; line-height: 1.6; }
+.qr {
+  display: block; width: min(230px, 72%); margin: 22px auto 0; padding: 6px;
+  background: #fff; border: 3px solid var(--black); border-radius: 10px; box-shadow: 4px 4px 0 var(--yellow);
+}
+.qr img { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+.zalo-card .qr-note { margin: 12px 0 0; font-size: .95rem; font-weight: 600; text-align: center; }
 
 /* ============ Hình ảnh ============ */
 .collage { columns: 2; column-gap: 16px; margin-top: 24px; padding: 6px; }
